@@ -1,9 +1,12 @@
 def process_input(input_string):
-    numbers = input_string.split()
+    numbers = list(map(float, input_string.split()))
+    average_value = sum(numbers) / len(numbers)
 
     # Get max and average
     max_value = max(numbers) 
-    average_value = sum(numbers) / len(numbers)
+    #sum_value = sum(numbers)
+    #average_value = sum_value / len(numbers)
+
     return max_value, average_value
 
 if __name__ == "__main__":
