@@ -1,6 +1,6 @@
 def food_input():
-    #user_input = input()
-    #tokens = user_input.split()
+    user_input = input()
+    tokens = user_input.split()
     
     while user_input != "quit":
         if user_input == "quit":
