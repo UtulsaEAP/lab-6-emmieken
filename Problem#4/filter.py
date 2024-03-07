@@ -1,8 +1,14 @@
 def process_and_print(input_string):
-      # Split into separate strings
+    split_string = list(map(int, input_string.split()))
+
 
     # Convert strings to integers and filter out negative values
-    input_data = " "
+
+    for i in split_string:
+      if i < 0:
+        return split_string
+    else:
+       exit
 
     # Sort integers in reverse order
   
