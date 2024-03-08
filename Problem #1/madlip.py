@@ -3,11 +3,13 @@ def food_input():
     tokens = user_input.split()
     
     while user_input != "quit":
-        if user_input == "quit":
-            exit
+        if user_input == "quit" and tokens[1] == tokens[1]:
+            print()
         else:
-            user_input = input()
-            tokens = user_input.split()
+            exit
+            #user_input = input()
+            #tokens = user_input.split()
+
         print("Eating " + str(tokens[1]) + " " + str(tokens[0] + " a day keeps you happy and healthy."))
         
         
