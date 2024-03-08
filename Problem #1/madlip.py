@@ -12,7 +12,5 @@ def food_input():
         
         
 
-    
-
 if __name__ == "__main__":
     food_input()
