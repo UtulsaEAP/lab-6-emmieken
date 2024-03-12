@@ -1,3 +1,10 @@
+
+'''
+Emmie Kennemer
+3/5/24
+'''
+
+
 def process_input(input_string):
     numbers = list(map(float, input_string.split()))
     average_value = sum(numbers) / len(numbers)

@@ -1,3 +1,10 @@
+
+'''
+Emmie Kennemer
+3/5/24
+'''
+
+
 def filter_and_print_range(input_list, min_val, max_val):
     #write your code here
     #min_val = int(min_val)

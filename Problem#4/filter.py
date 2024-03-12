@@ -1,3 +1,11 @@
+
+
+'''
+Emmie Kennemer
+3/5/24
+'''
+
+
 def process_and_print(input_string):
     #input_string = input("Enter a space-separated string of numbers: ")
     split_string = list(map(int, input_string.split()))

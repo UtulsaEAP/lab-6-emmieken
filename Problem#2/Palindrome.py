@@ -1,3 +1,10 @@
+'''
+Emmie Kennemer
+3/3/24
+'''
+
+
+
 def check_palindrome(user_input):
     
     stripped_user_input = user_input.replace(" ", "")

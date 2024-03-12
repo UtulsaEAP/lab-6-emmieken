@@ -1,3 +1,8 @@
+
+'''
+Emmie Kennemer
+3/6/24
+'''
 def in_order(nums):
     # Type your code here.
     

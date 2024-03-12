@@ -1,3 +1,9 @@
+
+'''
+Emmie Kennemer
+3/3/24
+'''
+
 def food_input():
     user_input = input()
     tokens = user_input.split()
