@@ -5,6 +5,7 @@ Emmie Kennemer
 '''
 def in_order(nums):
     # Type your code here.
+    print("yes")
     
 if __name__ == '__main__':
     # Test out-of-order example

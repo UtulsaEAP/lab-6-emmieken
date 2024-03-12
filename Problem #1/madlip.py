@@ -8,15 +8,19 @@ def food_input():
     user_input = input()
     tokens = user_input.split()
     
-    while user_input != "quit":
-        if user_input == "quit" and tokens[1] == tokens[1]:
-            print()
+    while True:
+        food = tokens[0]
+        amount = tokens[1]
+        if (food == "quit" and amount == "0"):
+            break
         else:
-            exit
-            #user_input = input()
-            #tokens = user_input.split()
+            print_this = ("Eating " + str(tokens[1]) + " " + str(tokens[0] + " a day keeps you happy and healthy."))
 
-        print("Eating " + str(tokens[1]) + " " + str(tokens[0] + " a day keeps you happy and healthy."))
+        print(print_this)
+    
+        user_input = input()
+        tokens = user_input.split() 
+
         
         
 
