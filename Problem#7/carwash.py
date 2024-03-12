@@ -9,6 +9,13 @@ def calculate_car_wash_price(service_choice1, service_choice2):
     total = 0
    
    #type your code here 
+    for i in services:
+        print("ZyCar Wash")
+        print("Base car wash: " + " $" + str(base_wash))
+        print(service_choice1 + ": $" + str(services[i]))
+        print(service_choice2 + ": $" + str(services[i]))
+        print(total)
+
 
     
 if __name__ == '__main__':
