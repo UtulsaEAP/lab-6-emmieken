@@ -19,7 +19,7 @@ def food_input():
         print(print_this)
     
         user_input = input()
-        tokens = user_input.split() 
+        tokens = user_input.split()
 
         
         
