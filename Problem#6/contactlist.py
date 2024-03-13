@@ -18,7 +18,6 @@ def process_user_contacts(user_input):
     
     
     '''
-    
 
     #user_input = input("Enter word pairs (name, phone number): ")
     
@@ -37,7 +36,7 @@ def process_user_contacts(user_input):
 
     # Get contact name from input, output contact's phone number
     #contact_name = input("Enter the contact name: ")
-
+    '''
     user_input = input()
     dictionary = {}
     user_split = user_input.split(" ")
@@ -48,6 +47,19 @@ def process_user_contacts(user_input):
     
     search_name = input()
     print(dictionary[search_name])
+    
+    '''
+
+    name_and_number = user_input.split(" ")
+    dictionary = {}
+
+    for i in name_and_number:
+        name = i.split(",")[0]
+        number = i.split(",")[1]
+        dictionary[name] = number
+    
+    search_name = input()
+    if dictionary.get(name)
 
 
 
