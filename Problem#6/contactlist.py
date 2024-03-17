@@ -4,64 +4,17 @@ Emmie Kennemer
 '''
 
 def process_user_contacts(user_input):
-    '''
-    user_input = input().split(",")
-    contacts = {}
-
-    #dictionary = {user_input[i]: user_input[i+1] for i in range(0, len(user_input), 2)}
-    for i in user_input:
-        split = i.split(",")
-        contacts[split[0]] = split[1]
-    
-    person_name = input()
-    print(contacts[person_name])
-    
-    
-    '''
-
-    #user_input = input("Enter word pairs (name, phone number): ")
-    
-    #user_contacts = {user_input}
-    #search_name = input("Enter a contact name: ")
-
-    #if search_name == user_input[i]:
-        #print(user_input[i+1])
-
-
-    #user_input = str(input()).split()
-   # tokens = input()
-
-    # Put word pairs into a dictionary
-   # dictionary = dict(zip(user_input[::2], tokens[1::2]))
-
-    # Get contact name from input, output contact's phone number
-    #contact_name = input("Enter the contact name: ")
-    '''
-    user_input = input()
-    dictionary = {}
-    user_split = user_input.split(" ")
-
-    for pair in user_split:
-        name, number = pair.split(",")
-        dictionary[name] = number
-    
-    search_name = input()
-    print(dictionary[search_name])
-    
-    '''
-
-    name_and_number = user_input.split(" ")
+    current_contact = []
+    user_input = user_input.split(" ")
     dictionary = {}
 
-    for i in name_and_number:
-        name = i.split(",")[0]
-        number = i.split(",")[1]
-        dictionary[name] = number
+    for i in range(0, len(user_input), 1):
+        current_contact = user_input[i].split(",")
+        dictionary.update({current_contact[0]:current_contact[1]})
     
-    search_name = input()
-    if dictionary.get(name)
-
-
+    search_name = input("Enter contact name: ")
+    print(dictionary.get(search_name))
+   
 
 if __name__ == '__main__':
     # Get input for word pairs
